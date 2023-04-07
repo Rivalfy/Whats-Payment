@@ -59,9 +59,9 @@ global.minimaldepo = "10000";
 global.minimallimit = "100";
 // End Minimal
 
-global.owner = ["6285742632270"];
+global.owner = ["6281214307663"];
 global.packname = "Whats Payment";
-global.author = "RezaDevv";
+global.author = "RRshop store";
 global.versionscript = "1.3.0";
 global.session = "whats-payment";
 global.mess = {
