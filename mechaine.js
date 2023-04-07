@@ -623,7 +623,7 @@ module.exports = reza = async (client, m, chatUpdate, store) => {
               }
               const listMessage = {
                 text: `*_Pilih layanan sesuai dengan yang Anda inginkan! dan Sesuaikan Dengan Kebutuhan Anda Terimakasih!._*\n\nNote: *_Kesalahan Nomor Bukan Tanggung Jawab Owner!._*`,
-                footer: "©RezaDevv (Owner)",
+                footer: "©RRshop (Owner)",
                 buttonText: "Select One Option",
                 sections: [{
                   title: "Whats Payment",
@@ -687,7 +687,7 @@ module.exports = reza = async (client, m, chatUpdate, store) => {
           }
           const listMessage = {
             text: `*_Pilih Layanan E-Money Yang Anda Inginkan, Berikut Adalah Daftar E-Money Yang Tersedia Dalam Menu Kami!_*`,
-            footer: "By @RezaDevv",
+            footer: "By @RRshop",
             buttonText: "Select One Option",
             sections: [{
               title: "Saldo Emoney",
@@ -866,7 +866,7 @@ module.exports = reza = async (client, m, chatUpdate, store) => {
               }
               const listMessage = {
                 text: `*_Berikut Adalah List Diamond ${ininuh} Yang Tersedia, Silahkan Pilih Salah Satu Yang Anda Ingin Beli._*`,
-                footer: "©RezaDevv (Owner)",
+                footer: "©RRshop (Owner)",
                 buttonText: "Select Option",
                 sections: [{
                   title: "Whats Payment",
@@ -912,7 +912,7 @@ module.exports = reza = async (client, m, chatUpdate, store) => {
       let isian = `_*User Profile Account*_\n_📍 Name : ${pushname}_\n_📍 Balance : ${formatmoney(getMonUser(sender) ? getMonUser(sender) : "Rp 0,00")}_\n_📍 Uid : ${sender.replace("@s.whatsapp.net", "")}_\n\nNote: *Saldo Hanya Digunakan Untuk Top Up Saja, Tidak Bisa Withdraw😉!.*`
       const listMessage = {
         text: isian,
-        footer: "By @RezaDevv",
+        footer: "By @RRshop",
         title: "━━[ List Top Up Whats Payment ]━━",
         buttonText: "Select One Option",
         sections
@@ -942,7 +942,7 @@ module.exports = reza = async (client, m, chatUpdate, store) => {
 
 const listMessage = {
   text: `*_Pilih Menu Yang Anda Inginkan & Jangan Lupa Selalu Sesuaikan Dengan Kebutuhan_*`,
-  footer: "By @RezaDevv",
+  footer: "By @RRshop",
   buttonText: "Select One Option",
   sections: [{
     title: "Whats Payment",
@@ -976,7 +976,7 @@ list = []
            
       const listMessage = {
       text: `*_Pilih Menu Yang Anda Inginkan & Jangan Lupa Selalu Sesuaikan Dengan Kebutuhan_*`,
-      footer: "By @RezaDevv",
+      footer: "By @RRshop",
       buttonText: "Select One Option",
       sections: [{
         title: "Whats Payment",
@@ -1009,7 +1009,7 @@ list = []
       }
       const listMessage = {
       text: `*_Emoney Menu Gunakan Untuk Mempermudah Kegiatan Anda Terimakasih_*`,
-      footer: "By @RezaDevv",
+      footer: "By @RRshop",
       buttonText: "Select One Option",
       sections: [{
         title: "Whats Payment",
@@ -1063,7 +1063,7 @@ list = []
     }
     const listMessage = {
       text: `*_Pilih Layanan Voucher Game Yang Anda Inginkan, Berikut Adalah Daftar Game Yang Tersedia Dalam Menu Kami!_*`,
-      footer: "©RezaDevv (Owner)",
+      footer: "©RRshop (Owner)",
       buttonText: "Select One Click",
       sections: [{
         title: "Whats Payment",
@@ -1147,7 +1147,7 @@ case "onlyid" : {
         }
         const listMessage = {
           text: `*_Berikut Adalah List Diamond ${ininuh} Yang Tersedia, Silahkan Pilih Salah Satu Yang Anda Ingin Beli._*`,
-          footer: "©RezaDevv (Owner)",
+          footer: "©RRshop (Owner)",
           buttonText: "Select One Option",
           sections: [{
             title: "Whats Payment",
@@ -1327,7 +1327,7 @@ case "konfirmasiemoney" : {
       axios('https://vip-reseller.co.id/api/profile',{method: 'POST',data: new URLSearchParams(Object.entries({key: api_key,sign: sign}))}).then((res) => {
         const listMessage = {
           text: `*_Pilih layanan sesuai dengan yang anda inginkan, Berikut adalah list yang bisa anda pilih, silahkan!_*\n\n_Server Balance: ${formatmoney(res.data.data.balance)}_\n_You Balance: ${formatmoney(getMonUser(sender))}_\n\nNote: *_Jika Saldo Server Kurang Dari Harga Pembelian Yang Anda Inginkan Silahkan Tunggu Jam Reset Saldo Server Pada 12.00/18.00! Terimakasih Telah Memilih Kami_.*`,
-          footer: "By @RezaDevv",
+          footer: "By @RRshop",
           buttonText: "Select One Option",
           sections: [{
             title: "Whats Payment",
